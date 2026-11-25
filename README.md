@@ -16,6 +16,7 @@ Scripts used to build features, train models, run robustness/sensitivity analyse
 10. `physical_descriptors_and_uq_analyses.py` — NEB-displacement mobile-ion identification, Arrhenius threshold framing, CAVD grouped validation, dataset heterogeneity, Ewald/Madelung descriptors, leakage-free UQ, SHAP-vs-physical checks
 11. `label_correction_and_bootstrap_checks.py` — corrected mobile-cation labels, CAVD ionic-radius ablation, per-protocol bootstrap CIs, CAVD duplicate-structure check, UQ bootstrap
 12. `distribution_and_heterogeneity_checks.py` — target-distribution comparison across grouped/ungrouped splits, migration-barrier dataset heterogeneity by DFT functional type
+13. `cross_valence_robustness_checks.py` — NEB-corrected-label reruns of the model benchmark, descriptor ablation, SHAP, and Gaussian-process comparisons; a GGA-only functional-matched subset test; composition-grouped training resampling and within-valence-group splits; a CAVD matched-host subset check; an electronegativity-difference bonding descriptor; and screening-retention rates under cross-valence extrapolation
 
 ## Figures
 
